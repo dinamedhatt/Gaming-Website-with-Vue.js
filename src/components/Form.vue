@@ -5,7 +5,7 @@
   <label class="form-label" for="txt">Username/Email</label>
     <input type="text" id="txt" class="form-control" placeholder="Type your username here"/>
     <label class="form-label" for="pw">Password</label>
-    <input type="text" id="pw" class="form-control" placeholder="Type your password"/>
+    <input type="password" id="pw" class="form-control" placeholder="Type your password"/>
     <i class="fas fa-eye-slash"></i>
     <p class='seeAll'>Forgot password?</p>
     <button id='btn'>LOGIN</button>
@@ -45,7 +45,7 @@ p{
   background-color: white;
   position: absolute;
   top:11%;
-  right: 22%;
+  right: 21%;
 }
 
 input{
@@ -66,7 +66,7 @@ input{
 i{
   position: absolute;
   right: 10%;
-  top: 45%;
+  top: 48%;
 }
 
 label{

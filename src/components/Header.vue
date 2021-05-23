@@ -45,6 +45,7 @@ export default {
 .headerDiv {
   background: white;
   height: fit-content;
+  margin-left:0px;
   width: 100%;
   /* display: flex; */
 }
