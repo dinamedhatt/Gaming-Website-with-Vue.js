@@ -1,30 +1,39 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+<router-view/>
 </template>
 
+<script>
+export default{
+  name:'App',
+  mounted() {
+
+    this.$store.dispatch("a");
+  }
+}
+</script>
+
 <style lang="scss">
+
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+#btn {
+  background: #572589;
+  color: #fff;
+  border: none;
+  width: 133px;
+  height: 33px;
+  padding: 9.6px 31.4px 4.4px 23.6px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Tajawal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>

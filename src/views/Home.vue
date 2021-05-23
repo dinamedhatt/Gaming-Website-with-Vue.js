@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header/>
+    <Categories/>
+    <Games/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Games from '../components/Games'
+import Header from '../components/Header'
+import Categories from '../components/Categories'
 
 export default {
   name: 'Home',
+  // props:{
+  //   games: Array
+  // },
+  // updated(){
+  //   console.log('Home',this.games);
+  // },
   components: {
-    HelloWorld
+    Games,
+    Header,
+    Categories,
   }
 }
 </script>
+
+<style scoped>
+.home{
+  padding: 0 0 45px;
+  background-color: #f5f5f5;
+}
+</style>

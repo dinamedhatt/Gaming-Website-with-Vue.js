@@ -1,19 +1,7 @@
-# vue-app
+# TPAY Mobile Task
 
-## Project setup
-```
-npm install
-```
+## Project Description
+The project is a game website, where user can see recommended, featured and popular games, and check the whole info for each game. It fetches data from fake API. It's created with Vue.js version 3.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project Demo
+https://drive.google.com/file/d/1m3M6G3CyMtaeEp_vQMN0rF2QPtHaoL7G/view?usp=sharing
